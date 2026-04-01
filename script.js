@@ -6,7 +6,7 @@ noBtn.addEventListener("mouseenter", moveNoButton);
 noBtn.addEventListener("click", moveNoButton);
 
 yesBtn.addEventListener("click", () => {
-    message.textContent = "YAYYY 💕 I knew you would say yes 😭✨";
+    message.textContent = "💕 I promise you will be happy! ✨";
     noBtn.style.display = "none";
     createConfettiBurst();
 });
