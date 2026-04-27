@@ -3,18 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Will You Be Mine?</title>
+    <title>For Dung 💖</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="background-hearts"></div>
+    <div class="background-hearts" aria-hidden="true"></div>
 
     <main class="container">
-        <div class="card">
-            <div class="emoji">💖</div>
-            <h1>Dung</h1>
+        <section class="card">
+            <div class="emoji" aria-hidden="true">💖</div>
+
+            <p class="small-title">Dung,</p>
+
             <h1>Will you marry me?</h1>
-            <p class="subtitle">Chanh</p>
+
+            <p class="subtitle">
+                Chanh
+            </p>
 
             <div class="buttons" id="buttons">
                 <button id="yes" class="btn yes-btn">Yes 💕</button>
@@ -22,7 +27,19 @@
             </div>
 
             <p id="message" class="message"></p>
-        </div>
+
+            <div id="surprise" class="surprise" hidden>
+                <p class="surprise-text">
+                    I promise you will be happy!
+                </p>
+
+                <div class="ring-box" aria-hidden="true">
+                    <span class="ring">💍</span>
+                </div>
+
+                <img src="pictures/chanh-dung.jpeg" alt="Chanh and Dung" class="photo">
+            </div>
+        </section>
     </main>
 
     <script src="script.js"></script>
